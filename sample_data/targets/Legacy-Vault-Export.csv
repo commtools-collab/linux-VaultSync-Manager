@@ -1,0 +1,4 @@
+title,username,password,url,notes
+GitHub,alex.jordan@example.com,REDACTED_PLACEHOLDER_1,https://github.com,legacy export sample
+AWS Console,platform-admin,REDACTED_PLACEHOLDER_2,https://console.aws.amazon.com,rotate after migration
+Bank Portal,finance.user@example.com,REDACTED_PLACEHOLDER_3,https://bank.example.com,migrate to Finance vault

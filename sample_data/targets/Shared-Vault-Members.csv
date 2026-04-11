@@ -1,0 +1,5 @@
+vault_name,member_email,role,status
+Engineering Vault,eng-lead@example.com,admin,active
+Engineering Vault,ops-user@example.com,editor,active
+Finance Vault,finance-owner@example.com,admin,active
+Finance Vault,auditor@example.com,viewer,pending

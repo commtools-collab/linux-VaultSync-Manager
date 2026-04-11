@@ -1,0 +1,18 @@
+{
+  "name": "VAULTSync Password Manager (macOS)",
+  "version": "1.0.0",
+  "binary_path": "bin/vaultsync",
+  "binary_included": false,
+  "sample_input_root": "sample_data/targets",
+  "diagnostics_output_root": "sample_data/outputs",
+  "default_scripts": [
+    "scripts/prep_workspace.sh",
+    "scripts/collect_diagnostics.sh"
+  ],
+  "supported_workflows": [
+    "legacy_export_import",
+    "vault_health_check",
+    "dry_run_validation"
+  ],
+  "release_sha256": "REPLACE_WITH_RELEASE_BINARY_SHA256"
+}
