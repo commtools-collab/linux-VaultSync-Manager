@@ -1,8 +1,9 @@
 {
-  "name": "VAULTSync Password Manager (macOS)",
+  "name": "VAULTSync Password Manager (linux)",
   "version": "1.0.0",
   "binary_path": "bin/vaultsync",
-  "binary_included": false,
+  "binary_included": true,
+  "signing_key": "bin/config/pub.pem",
   "sample_input_root": "sample_data/targets",
   "diagnostics_output_root": "sample_data/outputs",
   "default_scripts": [
@@ -14,5 +15,5 @@
     "vault_health_check",
     "dry_run_validation"
   ],
-  "release_sha256": "REPLACE_WITH_RELEASE_BINARY_SHA256"
+  "release_sha256": "fdcb58b9c9068e3f7f54db1a0590ab39cd5807ec2cd55214eedc6abc8508f575"
 }
